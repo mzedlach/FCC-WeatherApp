@@ -1,0 +1,72 @@
+* {
+   padding:0;
+   margin:0;
+}
+
+#background {
+   background-image: url(#);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+/* ----------- */
+/* Box Content */
+/* ----------- */
+
+.container {
+   background: #fff;
+   width: 400px;
+   padding:20px;
+/*   display:flex;*/
+   opacity: 0.90;
+   border-radius:20px;
+/*   flex-direction: column;*/
+   text-align:center;
+    align-items: center;
+   box-shadow: inset 0 0 10px #000000;
+   position:absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%,0%);
+}
+.title {
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    border-bottom: 2px solid #000000;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+.temperature {
+   justify-content:center;
+    width:100%;
+    display:flex; 
+    font-size: 50px;
+}
+#tempUnit {
+   font-size: 20px;
+}
+.generatedInfo {
+    font-family: 'Patua One', cursive;
+    font-size: 30px;
+}
+button {
+   font-family: 'Patua One', cursive;
+   font-size: 15px;
+}
+
+/* ------ */
+/* Button */
+/* ------ */
+button {
+   width:150PX;
+   padding:10px 20px;
+   border-radius:50px;
+   background-color: #9EACBF;
+    margin-top: 2vh;   
+}
+button:hover,
+button:active {
+   background-color: #cecece;
+}
